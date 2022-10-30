@@ -14,17 +14,45 @@
     font-style: normal;
 }*/
 
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
 
+menu {
+    height: 100px;
+    width: 100px;
+}
 
 p{
     font-family: 'Lato', sans-serif;
     font-size: 12px;
-    color: dimgrey;
+    color: dimgrey;   
+}
+
+.container {
+    display: flex;
+    flex-direction: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     
 }
 
-img {
-    color: dimgray;
+.container > div {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+  }
+
+@media(max-width:750px) {
+    width: 90/;
+    display: flex;
+    flex-direction: columns;
+    gap:1rem;
 }
 
-
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
