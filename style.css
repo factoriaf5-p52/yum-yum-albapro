@@ -27,10 +27,53 @@
 
     display: flex;
     flex-direction: row;
+    justify-content: center;
+
+}    
+
+.container1 {
+    height: 500px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.container3 {
+    background-color: white;
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
 }
 
 .item {
     width: 20%;
 }
 
+.item1 {
+    background-color:grey;
+    width: 50%;
+}
+
+.item2 {
+    background-color: greenyellow;
+    width: 50%;
+}
+
+.how{
+    align-content: center;
+    height: 100px;
+}
+
+.item3 {
+    width: 33%;
+}
+
+.item4 {
+    width: 33%;
+}
+
+.item5 {
+    width: 33%;
+}
 
