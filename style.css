@@ -24,8 +24,8 @@
     background-color: rgb(239, 237, 237);
     height: 80px;
     font-family: "lato";
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
 
     display: flex;
     flex-direction: row;
@@ -35,8 +35,8 @@
 
 .container1 {
     height: 500px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
     display: flex;
     flex-direction: row;
 }
@@ -44,8 +44,8 @@
 .container3 {
     background-color: white;
     height: 200px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
 
     display: flex;
     flex-direction: row;
@@ -54,12 +54,13 @@
 .container5 {
     background-color: rgb(239, 237, 237);
     height: 800px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .item {
@@ -109,26 +110,11 @@
     height: 100px;   
 }
 
-.cuadrogris1 {
-    background-color: rgb(170, 179, 204);
+.cuadrogris {
+    background-color: 969FA6;
     width: 20%;
     height: 25%;
-}
+    margin-top: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
-.cuadrogris2 {
-    background-color: rgb(170, 179, 204);
-    width: 20%;
-    height: 25%;
-}
-
-.cuadrogris3 {
-    background-color: rgb(170, 179, 204);
-    width: 20%;
-    height: 25%;
-}
-
-.cuadrogris4 {
-    background-color: rgb(170, 179, 204);
-    width: 20%;
-    height: 25%;
-}
