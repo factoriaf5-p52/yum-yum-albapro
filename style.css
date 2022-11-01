@@ -14,7 +14,8 @@
     margin-right: 20px;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }    
 
 .logo {
@@ -44,6 +45,8 @@
 
 .container2 {
     width: 576px;
+    margin-left: 20px;
+    margin-right: 20px;
 
     display: flex;
     flex-direction: column;
@@ -76,6 +79,7 @@ h1{
     margin-right: 20px;
 
     display: grid;
+    align-items: center;
     grid-template-rows: repeat(6, 1fr);
 }
 
@@ -98,7 +102,14 @@ h1{
 }
 
 .disches {
-    text-align: center;
+    background-color: rgb(245, 245, 235);
+    width: 576px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    text-align:center;
+
     color: rgb(244, 82, 1);
     font-family: "black"; 
     font-size: 30px;   
@@ -106,39 +117,40 @@ h1{
 
 .container4 {
     background-color: rgb(245, 245, 235);
-    height: 1000px;
+    height: 2000px;
     width: 576px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
-   
+
     display: flex;
-    flex-flow: column;
-    align-items: center;     
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .item6 {
     background-color: rgb(164, 170, 181);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    height: 20%;
-    width: 90%;
-    margin-top: 100px;
+    width: 500px;
+    height: 300px;
     padding: 20px;
+    margin-top: 40px;
 }
 
 .item7 {
     background-color: rgb(255, 255, 255);
-    height: 20%;
-    width: 90%;
+    width: 500px;
+    height: 300px;
     padding: 20px;
     font-family: "Lato";
 }
 
 .item8 {
     background-color: rgb(255, 255, 255);
-    height: 4%;
-    width: 25%;
+    width: 500px;
+    height: 80px;
     padding: 20px;
     margin-top: 2px;
 }
@@ -157,43 +169,93 @@ h1{
 
 .container6 {
     background-color: rgb(222, 96, 0);
-    height: 500px;
-    margin-left: 60px;
-    margin-right: 60px;
+    width: 576px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 20px;
 
     display: flex;
-    flex-flow: row;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container7 {
+    background-color: rgb(222, 96, 0);
+    width: 576px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
 
 .item9 {
     font-family: "black";
     color: white;
     border: medium solid #999;
+    width: 50%;
 }
 
 .item10 {
     font-family: "Lato";
     color: white;
     border: medium solid #999;
+    width: 50%;
 }
 
+.restaurant {
+    background-color: rgb(245, 245, 235);
+    width: 576px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    text-align: center;
 
-.container7 {
-    background-color: rgb(255, 255, 255);
-    height: 300px;
-    margin-left: 60px;
-    margin-right: 60px;
-    padding: 20px;
+    color: rgb(244, 82, 1);
+    font-family: "black"; 
+    font-size: 50px;  
+}
+
+.cuisine {
+    background-color: rgb(245, 245, 235);
+    width: 576px;
+    height: 2000px;
+    margin-left: 20px;
+    margin-right: 20px;
 
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuadro-negro {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+
+    font-family: "black";
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
 }
 
 .container8 {
     background-color: rgb(245, 245, 235);
-    height: 100px;
-    margin-left: 60px;
-    margin-right: 60px;
+    width: 576px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 20px;
 
     display: flex;
