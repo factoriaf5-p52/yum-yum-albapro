@@ -125,8 +125,7 @@ h1{
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .item6 {
@@ -211,10 +210,12 @@ h1{
 .restaurant {
     background-color: rgb(245, 245, 235);
     width: 576px;
-    height: 100px;
+    height: 180px;
     margin-left: 20px;
     margin-right: 20px;
-    
+}
+
+.restaurante {
     text-align: center;
 
     color: rgb(244, 82, 1);
@@ -249,23 +250,56 @@ h1{
     text-align: center;
     font-size: 50px;
 }
-
 .container8 {
     background-color: rgb(245, 245, 235);
     width: 576px;
-    height: 150px;
+    height: 1500px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
 
     display: flex;
+    flex-direction: column;
+    align-items: center;  
 }
 
-.item {
-    width: 20%;
+.feature-text {
+    background-color: rgb(245, 245, 235);
+    width: 576px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    text-align: center;
+
+    color: rgb(244, 82, 1);
+    font-family: "black"; 
+    font-size: 60px;  
 }
 
 
-.footer {
+.item12 {
+    font-family: "black";
+    font-size: 20px;
+}
+
+.item13 {
+    font-family: "Lato";
+    font-size: 15px;
+    color: grey;
+}
+
+
+
+.footer1 {
+    background-color: rgb(255, 255, 255);
+    width: 576px;
+    height: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 20px;
+    border:#999
+
+    display: grid;
+
 }
